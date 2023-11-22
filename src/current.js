@@ -5,7 +5,7 @@ function Current({current,city}){
     <div className="main_current">
     <div className="current">
        <div className="heading"><h1>{city.name}-{city.region}-{city.country}</h1></div>
-       <img src={current.condition.icon}/>
+       <img src={current.condition.icon} alt="img"/>
        <ul>
        <li>Condition:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{current.condition.text}</li>
        <li>Date: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{current.last_updated}</li>

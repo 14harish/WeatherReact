@@ -6,7 +6,7 @@ function Forcast(forecast){
     const studentList=forecast.forecast.forecastday.map((data,pos)=>{
         return(
         <div className="box">
-        <div className="imgbox"><h1>{forecast.forecast.forecastday[pos].date}</h1><img src={forecast.forecast.forecastday[pos].day.condition.icon}/></div>
+        <div className="imgbox"><h1>{forecast.forecast.forecastday[pos].date}</h1><img src={forecast.forecast.forecastday[pos].day.condition.icon} alt="img"/></div>
         <ul>
         <li><span id="s1">Sunrise:</span>{forecast.forecast.forecastday[pos].astro.sunrise}</li>
         <li><span id="s2">Sunset:</span>{forecast.forecast.forecastday[pos].astro.sunset}</li>
