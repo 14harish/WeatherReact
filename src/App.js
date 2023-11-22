@@ -33,7 +33,7 @@ function App() {
 
   useEffect(()=>{
     async function get(){
-      await axios.get(`http://api.weatherapi.com/v1/search.json?key=9ec06796b6b24e7482681929231903&q=${city}&days=7&aqi=yes&alerts=yes`)
+      await axios.get(`https://api.weatherapi.com/v1/search.json?key=9ec06796b6b24e7482681929231903&q=${city}&days=7&aqi=yes&alerts=yes`)
       .then(res=>{
         const autocomplete=res.data.map((data)=>{
           return `${data.name},${data.region},${data.country}`
