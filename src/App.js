@@ -1,6 +1,6 @@
 
 import './App.css';
-import React, {useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import Current from './current';
 import Forcast from './forcast';
