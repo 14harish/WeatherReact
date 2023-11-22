@@ -1,0 +1,47 @@
+body{
+  background-color: #000;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 255, 251);
+}
+.main{
+  background-color: rgb(98, 6, 203);color: azure;
+  width: 100wh;
+  position: relative;
+  /* left:35%; */
+  padding: 20px;
+  text-align: center;;
+}
+.container{
+  font-size: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.container input{
+  font-size: 20px;
+  text-align: center;
+  width: 300px;
+  height: 30px;
+  right: 30%;
+}
+.auto{
+  margin-top: 18px;
+  height: 100px;
+  overflow-y: scroll;
+}
+.pt{
+  font-size: 16px;
+}
+.pt:hover{
+  color: red;
+  cursor: pointer;
+}
+.auto::-webkit-scrollbar{
+  width: 0px;
+  /* background-color: black; */
+}
