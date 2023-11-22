@@ -17,7 +17,7 @@ function App() {
       console.log(ar[0]);
       setCity(ar[0]);
       console.log(ele);
-      axios.get(`http://api.weatherapi.com/v1/forecast.json?key=9ec06796b6b24e7482681929231903&q=${city}&days=7&aqi=no&alerts=yes`)
+      axios.get(`https://api.weatherapi.com/v1/forecast.json?key=9ec06796b6b24e7482681929231903&q=${city}&days=7&aqi=no&alerts=yes`)
       .then((res)=>{
         setCity(ele);
         console.log(res.data);
